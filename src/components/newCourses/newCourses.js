@@ -22,8 +22,17 @@ class newCourses extends HTMLElement {
     render() {
         console.log("pinto cursitos bb")
         this.shadowRoot.innerHTML = `
-            <link rel="stylesheet" href="styles.css">
-            <h1> Cursos </h1>
+            <link rel="stylesheet" href="./src/components/newCourses/newCourses.css">
+
+            <section>
+            <h1> Cursos sobre manualidades y cocina </h1>
+
+            <section class="courses">
+            <div class="rectangle">
+            <h3>Tecnicas de bordado con pedrería</h3>
+            </div>
+            </section>
+            </section>
         `;
     }
 }

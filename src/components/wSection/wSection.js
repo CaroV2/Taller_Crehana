@@ -22,7 +22,7 @@ class WSection extends HTMLElement {
     render() {
         console.log("pinto primerita sesión")
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="wSection.css">
+        <link rel="stylesheet" href="src/components/wSection/wSection.css">
             <section class="w-section">
             <div class="welcome">
                 <p> Hola, <strong>Carolina</strong>, ¡Qué bueno verte! </p>

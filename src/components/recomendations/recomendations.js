@@ -22,8 +22,9 @@ class Recomendations extends HTMLElement {
     render() {
         console.log("pinto recomendacionitas")
         this.shadowRoot.innerHTML = `
-            <link rel="stylesheet" href="styles.css">
+            <link rel="stylesheet" href="src/components/recomendations/recomendations.css">
             
+            <section>
             <section class="rbody">
             <div class="r-text">
                 <p>Recomendaciones</p>
@@ -65,6 +66,7 @@ class Recomendations extends HTMLElement {
             <img id="second" src="https://crehana-public-catalog.imgix.net/images/landing_academy/content-landing/fdf5065f/d1c506a7.png?auto=format&w=160&h=160&dpr=2&fit=crop&dpr=1">
             </div>
             </div>
+            </section>
             </section>
             </section>
         `;
