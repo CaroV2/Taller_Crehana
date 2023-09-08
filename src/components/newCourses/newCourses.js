@@ -1,4 +1,4 @@
-class Footer extends HTMLElement {
+class newCourses extends HTMLElement {
 
     static get customElements() {
         return [];
@@ -20,13 +20,13 @@ class Footer extends HTMLElement {
     }
 
     render() {
-        console.log("pinto piecito")
+        console.log("pinto cursitos bb")
         this.shadowRoot.innerHTML = `
             <link rel="stylesheet" href="styles.css">
-            <h1> Pie de página </h1>
-            `
+            <h1> Cursos </h1>
+        `;
     }
 }
 
-customElements.define("my-footer", Footer)
-export default Footer;
+customElements.define("new-courses", newCourses)
+export default newCourses;
